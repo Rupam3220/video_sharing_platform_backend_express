@@ -1,0 +1,20 @@
+{
+  "name": "video_sharing_platform_backend_express",
+  "version": "1.0.0",
+  "description": "This is a  video sharing platform. We can upload, share, give a like and post a comment to the  video.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0",
+    "prettier": "^3.2.5"
+  }
+}
