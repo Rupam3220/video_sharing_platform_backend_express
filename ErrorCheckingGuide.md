@@ -2,6 +2,9 @@
 
 <!-- Controller Errors -->
 
+<!-- Access and Refresh tokens -->
+1. 
+
 <!-- userRegister -->
 1. "All fields are required!" = check userController.js, Line - 21
 2. "Username or Email already exists, Please try with another username or email..." => check userController.js, Line - 31
