@@ -7,11 +7,11 @@ import mongooseAggregatePaginate from "mongoose-aggregate-paginate-v2";
 //Schema for Video
 const videoSchema = new Schema ({
     videoFile: {
-        type: String,
+        type: String, // cloudinary url store
         required: true
     },
     thumbnail: {
-        type: String,
+        type: String, // cloudinary url store
         required: true
     },
     owner: {
@@ -32,8 +32,7 @@ const videoSchema = new Schema ({
     },
     views: {
         type: Number,
-        default: 0,
-        required: true
+        default: 0
     },
     isPublished: {
         type: Boolean,
