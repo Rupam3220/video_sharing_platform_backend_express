@@ -1,6 +1,6 @@
 # Error checking guide for developers
 
-<!-- Controller Errors -->
+# Controller Errors
 
 <!-- userRegister -->
 1. "All fields are required!" = check userController.js, Line - 21
